@@ -44,8 +44,8 @@ if app_mode == "Home":
     st.markdown("""
         # BrainCheck: Tumor or Healthy Classifier
         """)
-    # image_path = "image-2000x380.jpg"
-    # st.image(image_path,use_column_width=True)
+    image_path = "image-2000x380.jpg"
+    st.image(image_path,use_column_width=True)
     # Main Page
     if app_mode == "Home":
         st.markdown("""
